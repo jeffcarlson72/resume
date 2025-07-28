@@ -1,0 +1,475 @@
+* Jeffrey D. Carlson
+:PROPERTIES:
+:CUSTOM_ID: jeffrey-d.-carlson
+:END:
+
+Simi Valley, CA • (805)285-2286 • jeffcarlson72@yahoo.com
+
+** Introduction
+:PROPERTIES:
+:CUSTOM_ID: introduction
+:END:
+Highly experienced practitioner in the arts of Unix and Linux Systems
+Administration, DevOps and Site Reliability Engineering.
+
+** Skills
+:PROPERTIES:
+:CUSTOM_ID: skills
+:END:
+*** Unix and Linux Operating Systems
+:PROPERTIES:
+:CUSTOM_ID: unix-and-linux-operating-systems
+:END:
+- Fedora, Debian, Ubuntu, SuSE, and Red Hat Enterprise Linux
+- Oracle (nee Sun) Solaris and Illumos
+- FreeBSD
+- NetBSD
+- OpenBSD
+
+*** Software
+:PROPERTIES:
+:CUSTOM_ID: software
+:END:
+- Terraform
+- Ansible
+- CFEngine
+- Apache httpd
+- sendmail
+- Dovecot
+- Cyrus IMAP Server
+- OpenLDAP
+- ISC BIND
+- ISC DHCP
+- cron, anacron, periodic, and at
+- vsftpd
+- inetd and xinetd
+- NFS
+- Samba
+- OpenSSH
+- ntpd
+- RCS, CVS, SVN and Git
+- MySQL
+- PostgreSQL
+- MongoDB
+- Net-SNMP
+- OpenSSL
+- ejabberd
+- rsyslog
+
+*** Web Based Services
+:PROPERTIES:
+:CUSTOM_ID: web-based-services
+:END:
+- Ansible Tower / AWX
+- Nagios
+- Spacewalk / Satellite / SUSE Manager
+- NextCloud
+- Grafana
+- Prometheus and node-exporter
+
+*** Technologies
+:PROPERTIES:
+:CUSTOM_ID: technologies
+:END:
+- Cloud Platforms: Amazon Web Services (AWS)
+- Virtualization: Xen, KVM, VirtualBox, qemu, UML, LXC, OpenVZ, Docker, VMware
+- Networking: IPv4 and IPv6
+- Firewalls: Linux Netfilter, OpenBSD pf, IPFilter, tcp_wrappers, packet filtering
+- Encryption: ssh, OpenPGP, SSL/TLS
+- Storage: Linux Logical Volume Management, btrfs, DRBD, Software RAID (mdadm)
+- Storage: ZFS on Solaris and FreeBSD
+- VPN: linked multiple networks with Linux FreeS/WAN, OpenSWAN, and ipsec-tools/racoon
+- VPN: linked Windows, Mac, BSD, Linux, and Android with OpenVPN
+- VPN: linked Linux, Mac and Android hosts with Wireguard
+
+*** Programming and Development
+:PROPERTIES:
+:CUSTOM_ID: programming-and-development
+:END:
+- Bourne Shell --- Advanced Bash and sh
+- Perl --- Reg(ular)? *Ex(p(ression)?s?)?, CGI, DBI, Tk, Mason, XML, mod_perl
+- Python --- JSON, argparse, pymongo, Flask, Jinja2
+- PHP --- MySQL, Smarty, libPDF, GD
+- sed and awk
+- SQL --- MySQL, PostgreSQL, and SQLite
+- HTML, XML, and CSS
+- LaTeX
+
+** Experience
+:PROPERTIES:
+:CUSTOM_ID: experience
+:END:
+
+*** Northern Trust Bank 2167 Corporate Ln Naperville Illinois 60563
+
+June 19 2024 -- July 25 2025
+
+12+ month contract through Cognizant
+
+CFEngine Subject Matter Expert
+
+- 100% Remote --- I still live in Southern California
+- Managing around 10,000 servers running RedHat Enterprise Linux, Oracle
+  Solaris, and IBM AIX in six datacenters worldwide
+- Completely running project to upgrade all 10,000 servers to new
+  version of CFEngine
+- Migrating all 10,000 servers from legacy built policy servers (running
+  on past-EOL OS) to new OS builds
+- Training team who largely do not know or understand CFEngine workings
+  to work with the technology past my contract lifecycle
+- Completely rewrote and documented new disaster recovery plan for
+  failing over CFEngine operations in the case of a loss of either a
+  policy server or an entire data center as CFEngine is considered a
+  tier 1 applicaion
+- Wrote very detailed documentation detailing how CFEngine works and how
+  to write new policy including working from templates and integrating
+  changes into the current policy set
+- Extensive documentation about the current functioning of CFEngine
+  policy code
+- Documented how to build an RPM package
+- Fixing bugs in current CFEngine policy code
+- Built RPM of CFEngine for unsupported Linux version
+- Built RPM for AIX (for use in the Linux compatability layer)
+
+*** Zikron, Inc. Sherman Oaks CA
+
+September 15 2020 -- Present
+
+Lead Systems Administrator and DevOps Engineer
+
+- Start-up company with limited hours
+- Built ground-up infrastructure for the company in AWS
+- All AWS work is done in Terraform to ensure infinite reproducibility
+- Some use of CloudInit to set up AWS nodes
+- CFEngine is used to configure standard services to the company
+- Built company mail server in AWS with LDAP authentication and migrated
+  other internal services to authenticate with LDAP
+- Ansible is used to deploy bespoke code for in-house use and on
+  customer projects
+- Docker and Docker Compose used to deploy container infrastructure
+  including bespoke code on customer cloud servers
+
+*** UCI Irvine CA
+
+August 10 2022 -- February 1 2023
+
+6 month contract through Randstad
+
+MAI Application Engineer (PO Contractor)
+
+- Member of Middlewear Applications Team
+- Trouble-shot some tasks on Jenkins
+- Managed data in OpenLDAP and generated reports from same
+- Assisted members of multiple teams with GoAnywhere MFT
+- Handled SSL Certificate renewal on F5 BigIP load balancers
+- Received formal training on Ansible (which honestly felt mostly like a
+  review due to prior usage)
+- Also took training on Terraform (which was also mostly review for me)
+
+*** LinkedIn (Serviced by Trace3) Sunnyvale CA
+
+May 31 2021 -- June 14 2022
+
+1 year contract through The Judge Group
+
+Site Reliability Engineer
+
+- 100% remote work
+- Tracked down and installed or reinstalled operating systems (primarily
+  CentOS 7) on bare metal nodes. LinkedIn has over 300 thousand bare
+  metal servers in four US data centers and sometimes nodes fail to
+  install (PXE boot) due to hardware or software issues. My efforts have
+  saved the company hundreds of thousands of dollars
+- Made changes to CFEngine policy to reduce complexity of deployed
+  instructions. This was accomplished by lots of data manipulation using
+  Python in Jupyter Notebooks (and some use of =jq=)
+- Daily use of =ipmitool=, =bash= commands, and other shell tricks to
+  automate and expedite server installs
+- Contributed changes to bespoke tools in Python
+- Wrote tools in Python, Perl, and bash for interfacing with various API
+  services and other parts of the build system
+
+*** UCLA Health Systems 10880 Wilshire Blvd Los Angeles CA 90024
+
+December 23 2019 -- December 2 2020
+
+1 year contract through Randstad
+
+Sr. Linux Administrator
+
+- Managed over 600 SuSE Linux Enterprise Servers, Red Hat Enterprise
+  Linux servers, and AIX servers on bare metal, VMware, and LPAR in
+  three physical data centers and Microsoft Azure
+- Worked on a team with six other sysadmins and five DBAs
+- Built a service in Python and Flask to generate SuSE autoyast
+  configurations (equivalent to kickstart on RedHat)
+- Wrote multiple tools to interact with a bespoke database-backed server
+  inventory service in Perl, PHP (with Smarty), and Python
+- Gave multiple training sessions to team covering Git and GitHub,
+  Ansible, and CFEngine
+- Built multiple Ansible playbooks for automating software installation,
+  configuration, and upgrades
+- Participated in monthly patching activities using SUSE Manager and
+  coordinating with many different applicaion teams.
+
+*** ADP 55 S Lake Ave Pasadena CA 91101
+
+June 10 2019 -- October 10 2019
+
+3+ month Contract through Apex Systems
+
+Site Reliability Engineer
+
+- Participated in SCRUM sprints
+- Helped build system for automatic remediation of trouble alerts
+- Primarily coded in Python
+- Also wrote Ansible Playbooks and Roles to handle fixing trouble alerts
+- Managed Playbook runs through Ansible AWX Tower
+- Data centers contain about 6,000 servers
+
+*** Hotel Internet Services 4590 Ish Dr. #120 Simi Valley CA 93063
+
+March 25 2019 -- May 10 2019
+
+Linux Server Administrator/DevOps Consultant
+
+- Wrote multiple Ansible Playbooks for managing software installations
+  and other resources
+- Introduced CFEngine to manage distributed infrastructure (multiple
+  hotels around the world)
+- Managed distributed Nagios monitoring system
+- Worked with in-house management systems
+- Contributed to projects using Git and GitLab
+- Worked with external commercial tools like LogDNA and AlertOps to
+  improve overall Operations Team response time
+
+*** Macy's (serviced by IBM Professional Services) 5985 State Bridge Road Johns Creek GA 30097
+
+February 20 2017 -- June 22 2018
+
+1+ year Contract through Experis
+
+Sr. Linux Systems Administrator/IT Specialist
+
+- 100% remote role where I stayed at my home in California and worked
+  closely with team members on the east coast and India
+- Team of six engineers in US and 14 lower-level sysadmins in India,
+  three of us sharing on-call rotation
+- Managed over 3000 servers, physical and virtual, in two data centers
+- Hired to enhance the use of CFEngine on this account
+- Built a JSON-based user management system in CFEngine that would add
+  users to hosts, manage their home directories, dot-files, ssh-keys and
+  passwords, and manage groups and membership thereof; JSON user data is
+  managed using a Python application I wrote
+- Improved existing and wrote new configuration rules in CFEngine to
+  install custom IBM software on customer servers including but not
+  limited to provisioning new logical volumes, installing unpackaged
+  software (meaning it was not in RPM format), and making corrections
+  across the environment to incorrect mode, user, and group metadata on
+  files
+- Participated in the building, customization, and testing of new
+  server, both virtual and physical, for Macy's holiday capacity
+- Developed new machine testing using Python which reads in deployment
+  instructions in JSON and validates the build
+- Participated in multiple patching windows applying updates to servers
+  through the use of RedHat Satellite
+- Lead a training meeting to teach fellow team members how to use Git
+  and github.com
+- Started using Ansible
+
+*** Warner Brothers Technical Operations, Inc. 3300 West Olive Ave Burbank CA 91505
+
+April 6 2015 -- January 6 2017
+
+1+ year Contract through SMCI
+
+DevOps Engineer
+
+- Team of six (grown to nine) engineers with shared on-call rotation
+  plus four off shore after hours engineers
+- Managed over 900 servers in two data centers
+- Helped manage about 50,000 DNS domains
+- Primarily supported around a dozen business-to-business bespoke
+  web-based applications as well as hundreds of simple customer-facing
+  web sites, mostly WordPress and Drupal
+- Participated in patching effort using RHN and Spacewalk to update
+  servers
+- Subject matter expert on sendmail due to prior experience
+- Subject matter expert on 389 Directory Server due to teaching myself
+  everything I could about it and prior experience working with LDAP
+- Subject matter expert on Spacewalk due to teaching it to myself and
+  writing a plethora of Perl scripts to interact with its RPC API
+- Implemented monitoring solution for hundreds of web sites using
+  AlertSite, including creating monitors using RESTful programming
+  interface
+- Assisted in efforts to migrate company's web presence from colocated
+  data center to Amazon Web Services (AWS)
+- Constructed service to build RPM (yum) and DEB (apt) repositories in
+  Amazon s3 in a completely automated process
+
+*** InfoStreet, Inc. 18345 Ventura Blvd #416 Tarzana CA 91356
+
+February 3 2014 -- January 30 2015
+
+Sr. Systems Administrator
+
+- Managed five networks in geographically distributed locations with
+  eleven firewalls running OpenBSD (with pf and openbgpd) including carp
+  and pfsync
+- Managed a few hundred nodes, both virtual and physical
+- Built virtualization infrastructure using Xen with DomU images stored
+  on Dell EqualLogic appliances
+- Built replicated OpenLDAP infrastructure for authentication
+- Built replicated DNS for internal data center networks
+- Rebuilt Nagios infrastructure which hadn't been maintained in almost a
+  decade
+- Refreshed Bacula infrastructure with a dynamic script-driven
+  configuration model as opposed to static files which had to be updated
+  for every new host
+- Designed and implemented complete network re-address tasks because
+  multiple networks contained overlapping (private) IP ranges
+- Multiple trips out of town to do hands-on repairs in remote data
+  center
+
+*** Island Technologies 17408 Chatsworth St #200 Granada Hills CA 91344
+
+May 7 2012 -- October 31 2013
+
+Sr. Systems Administrator
+
+- Configured high-availability firewalls with Linux iptables,
+  conntrackd, and keepalived
+- Introduced identity management with OpenLDAP
+- Introduced configuration management with CFEngine
+- Improved performance of customer facing FTP service by introducing
+  vsftpd
+- Built virtualization infrastructure using Xen with DomU images stored
+  on ZFS backed iSCSI targets hosted on FreeBSD
+- Implemented IPSec VPN between office and data center using ipsec-tools
+  and racoon
+- Implemented OpenVPN for road warrior users
+- Orchestrated and executed data center move
+- Rebuilt office and data center networks for PCI compliance
+- Managed over 200 customer web sites and email domains
+
+*** En2go International 4119 Burbank Blvd #2 Burbank CA 91505
+
+July 5 2011 -- April 4 2012
+
+Sr. Systems Administrator
+
+- Built small data center from scratch, including advising on
+  co-location facilities and hardware purchases
+- Designed virtualization environment frontend and backend
+- Created PXE environment for rapid deployment
+- Introduced LDAP for identity management
+- Introduced CFEngine for configuration management
+- Built FTP servers for partners to upload media
+- Built WebDAV service for cross platform file sharing
+- Wrote extensive documentation of systems configuration and procedures
+- Constructed Linux firewalls with iptables, ipvsadm, and OpenSWAN to
+  provide high availability, load balancing, and IPSec VPN between
+  office and data center
+
+*** Reach Local, Inc 21700 Oxnard St #1600 Woodland Hills CA 91367
+
+January 2 2007 -- June 16 2011
+
+Systems Administrator
+
+- Managed over 200 servers, virtual and physical
+- Assisted in data center migration
+- Worked with storage solutions like NetApp, Isilon, and Dell EqualLogic
+- Worked with F5 Big-IP and Citrix NetScalar load balancers
+- Built PXE and kickstart environment
+- Managed around 100 DNS zones
+- Introduced Xen for virtualization
+- Introduced LDAP for identity management
+- Introduced CFEngine for configuration management
+
+*** Employers Direct Insurance Company 30301 Agoura Rd Agoura CA 91303 
+
+March 6, 2006 -- April 11 2006
+
+Short term contract
+
+Linux Systems Administrator
+
+- Installed RedHat servers with kickstart
+- Deployed web applications on Tomcat and JBoss
+
+*** InfoUSA, Inc. 15760 Ventura Blvd. #A10 Encino CA 91476
+
+January 20 2001 -- February 28 2006
+
+Systems Administrator
+
+- My first role as a Systems Administrator
+- Worked with Apache httpd, sendmail, Cyrus IMAPd, MySQL, BIND, DHCP,
+  OpenLDAP, Samba, iptables, IPsec, OpenVPN, and CFEngine
+
+Project leader and application developer for redesigned company website
+
+- Myself and three other developers rebuilt company website using
+  Apache, PHP, Smarty, and MySQL
+- Team leader with three other developers
+
+*** Interactive Search, Inc. 5959 W. Century Blvd. #1100 Los Angeles CA
+90045
+
+May 10 1999 -- December 22 2000
+
+PC support technician for the first 10 months
+
+- Desktop support focusing on users' Windows 98 desktops, software
+  installation and hardware upgrades
+- Also wired a new floor with Ethernet and crimped RJ-45
+- Built the company's first DHCP server
+
+Promoted to Engineering Support
+
+- Wrote Perl scripts to generate custom reports and correct database
+  errors
+- Designed and presented Unix (Solaris) training for group of new web
+  developers
+
+*** A-Accurate Answering Service 1489 E. Thousand Oaks Blvd. #2 Thousand
+Oaks CA 91362
+
+December 1 1994 -- May 6 1999
+
+Head Operator
+
+- Trained new employees
+- Sales and set up for new accounts
+- Employee scheduling
+- Handled payroll and billing
+- Shift supervisor for 2½ years
+- Assistant manager level of responsibility
+
+** Professional Affiliations
+:PROPERTIES:
+:CUSTOM_ID: professional-affiliations
+:END:
+- Southern California Linux Expo :: I volunteered to be the official coordinator of all user groups participating in SCALE. As such, I work closely with most of the user groups around the Southern California area to ensure their participation in SCALE will be a success. For more information about SCALE, see [[http://www.socallinuxexpo.com/][http://www.socallinuxexpo.com]].
+  
+- San Fernando Valley Linux Users Group :: I have been involved with the SFVLUG since August 2003. I have given presentations on building VPNs with FreeS/WAN, and CFEngine. I contributed to the group's current website and I have helped in some of the meeting planning. For more information on SFVLUG, please see [[http://www.sfvlug.org]].
+
+- Unix Users Association of Southern California :: I joined the UUASC in December 2000. This is an excellent group with members who are seasoned experts in all manner of Unix administration and usage. I have given presentations on the Gnome desktop, sendmail, and Linux Netfilter. For more information about the UUASC, please see [[http://www.uuasc.org/][http://www.uuasc.org]].
+
+** Education
+:PROPERTIES:
+:CUSTOM_ID: education
+:END:
+- Moorpark College, Moorpark, CA :: Over two years part time spent working toward general education requirements and greater music education with emphasis on composition and performance.
+
+- Sun Education, Advanced Intrusion Detection and Analysis :: Completed five day class from Accenture Learning on the techniques used by bad guys to attack, break into, and misuse a remote computer. Class covered techniques used by attackers to cover their tracks, rootkits, and cryptography, and multiple ways to detect all of these.
+
+- Self taught :: I taught myself how to build computers, DOS and Windows, Unix and Linux, programming, and networking.
+
+- Current goals :: Interested in learning more languages like Lisp maybe Go or Rust.
+
+At home I operate my homelab network with heterogenous operating
+systems, virtual machines, and dual stacked IPv6 connectivity.
+
+References available by request.
