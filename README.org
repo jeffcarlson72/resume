@@ -30,8 +30,8 @@ Administration, DevOps and Site Reliability Engineering.
 :PROPERTIES:
 :CUSTOM_ID: software
 :END:
-- Terraform
 - Ansible
+- Terraform
 - CFEngine
 - Apache httpd
 - sendmail
@@ -47,7 +47,7 @@ Administration, DevOps and Site Reliability Engineering.
 - Samba
 - OpenSSH
 - ntpd
-- RCS, CVS, SVN and Git
+- Git, RCS, CVS, and SVN
 - MySQL
 - PostgreSQL
 - MongoDB
@@ -72,22 +72,30 @@ Administration, DevOps and Site Reliability Engineering.
 :CUSTOM_ID: technologies
 :END:
 - Cloud Platforms: Amazon Web Services (AWS)
-- Virtualization: Xen, KVM, VirtualBox, qemu, UML, LXC, OpenVZ, Docker, VMware
+- Virtualization: Docker, Xen, KVM, VirtualBox, qemu, UML, LXC, OpenVZ,
+  VMware
 - Networking: IPv4 and IPv6
-- Firewalls: Linux Netfilter, OpenBSD pf, IPFilter, tcp_wrappers, packet filtering
+- Firewalls: Linux Netfilter, OpenBSD pf, IPFilter, tcp_wrappers, packet
+  filtering
 - Encryption: ssh, OpenPGP, SSL/TLS
-- Storage: Linux Logical Volume Management, btrfs, DRBD, Software RAID (mdadm)
+- Storage: Linux Logical Volume Management, btrfs, DRBD, Software RAID
+  (mdadm)
 - Storage: ZFS on Solaris and FreeBSD
-- VPN: linked multiple networks with Linux FreeS/WAN, OpenSWAN, and ipsec-tools/racoon
+- VPN: linked multiple networks with Linux FreeS/WAN, OpenSWAN, and
+  ipsec-tools/racoon
 - VPN: linked Windows, Mac, BSD, Linux, and Android with OpenVPN
 - VPN: linked Linux, Mac and Android hosts with Wireguard
+- Bare Metal: Experienced with hardware from SuperMicro, Dell, HP, IBM,
+  Sun, and Oracle; including hardware RAID and remote access (iDRAC,
+  iLOM, IPMI)
 
 *** Programming and Development
 :PROPERTIES:
 :CUSTOM_ID: programming-and-development
 :END:
 - Bourne Shell --- Advanced Bash and sh
-- Perl --- Reg(ular)? *Ex(p(ression)?s?)?, CGI, DBI, Tk, Mason, XML, mod_perl
+- Perl --- Reg(ular)? *Ex(p(ression)?s?)?, CGI, DBI, Tk, Mason, XML,
+  mod_perl
 - Python --- JSON, argparse, pymongo, Flask, Jinja2
 - PHP --- MySQL, Smarty, libPDF, GD
 - sed and awk
@@ -100,7 +108,7 @@ Administration, DevOps and Site Reliability Engineering.
 :CUSTOM_ID: experience
 :END:
 
-*** Northern Trust Bank 2167 Corporate Ln Naperville Illinois 60563
+Northern Trust Bank 2167 Corporate Ln Naperville Illinois 60563
 
 June 19 2024 -- July 25 2025
 
@@ -131,7 +139,7 @@ CFEngine Subject Matter Expert
 - Built RPM of CFEngine for unsupported Linux version
 - Built RPM for AIX (for use in the Linux compatability layer)
 
-*** Zikron, Inc. Sherman Oaks CA
+Zikron, Inc. Sherman Oaks CA
 
 September 15 2020 -- Present
 
@@ -149,7 +157,7 @@ Lead Systems Administrator and DevOps Engineer
 - Docker and Docker Compose used to deploy container infrastructure
   including bespoke code on customer cloud servers
 
-*** UCI Irvine CA
+UCI Irvine CA
 
 August 10 2022 -- February 1 2023
 
@@ -166,7 +174,7 @@ MAI Application Engineer (PO Contractor)
   review due to prior usage)
 - Also took training on Terraform (which was also mostly review for me)
 
-*** LinkedIn (Serviced by Trace3) Sunnyvale CA
+LinkedIn (Serviced by Trace3) Sunnyvale CA\\
 
 May 31 2021 -- June 14 2022
 
@@ -189,7 +197,7 @@ Site Reliability Engineer
 - Wrote tools in Python, Perl, and bash for interfacing with various API
   services and other parts of the build system
 
-*** UCLA Health Systems 10880 Wilshire Blvd Los Angeles CA 90024
+UCLA Health Systems 10880 Wilshire Blvd Los Angeles CA 90024\\
 
 December 23 2019 -- December 2 2020
 
@@ -212,7 +220,7 @@ Sr. Linux Administrator
 - Participated in monthly patching activities using SUSE Manager and
   coordinating with many different applicaion teams.
 
-*** ADP 55 S Lake Ave Pasadena CA 91101
+ADP 55 S Lake Ave Pasadena CA 91101\\
 
 June 10 2019 -- October 10 2019
 
@@ -227,7 +235,7 @@ Site Reliability Engineer
 - Managed Playbook runs through Ansible AWX Tower
 - Data centers contain about 6,000 servers
 
-*** Hotel Internet Services 4590 Ish Dr. #120 Simi Valley CA 93063
+Hotel Internet Services 4590 Ish Dr. #120 Simi Valley CA 93063
 
 March 25 2019 -- May 10 2019
 
@@ -243,7 +251,9 @@ Linux Server Administrator/DevOps Consultant
 - Worked with external commercial tools like LogDNA and AlertOps to
   improve overall Operations Team response time
 
-*** Macy's (serviced by IBM Professional Services) 5985 State Bridge Road Johns Creek GA 30097
+Macy's (serviced by IBM Professional Services) \\
+5985 State Bridge Road\\
+Johns Creek GA 30097
 
 February 20 2017 -- June 22 2018
 
@@ -277,7 +287,8 @@ Sr. Linux Systems Administrator/IT Specialist
   and github.com
 - Started using Ansible
 
-*** Warner Brothers Technical Operations, Inc. 3300 West Olive Ave Burbank CA 91505
+Warner Brothers Technical Operations, Inc. 3300 West Olive Ave Burbank
+CA 91505
 
 April 6 2015 -- January 6 2017
 
@@ -307,7 +318,9 @@ DevOps Engineer
 - Constructed service to build RPM (yum) and DEB (apt) repositories in
   Amazon s3 in a completely automated process
 
-*** InfoStreet, Inc. 18345 Ventura Blvd #416 Tarzana CA 91356
+InfoStreet, Inc. \\
+18345 Ventura Blvd #416\\
+Tarzana CA 91356
 
 February 3 2014 -- January 30 2015
 
@@ -331,7 +344,9 @@ Sr. Systems Administrator
 - Multiple trips out of town to do hands-on repairs in remote data
   center
 
-*** Island Technologies 17408 Chatsworth St #200 Granada Hills CA 91344
+Island Technologies \\
+17408 Chatsworth St #200\\
+Granada Hills CA 91344
 
 May 7 2012 -- October 31 2013
 
@@ -352,7 +367,9 @@ Sr. Systems Administrator
 - Rebuilt office and data center networks for PCI compliance
 - Managed over 200 customer web sites and email domains
 
-*** En2go International 4119 Burbank Blvd #2 Burbank CA 91505
+En2go International \\
+4119 Burbank Blvd #2\\
+Burbank CA 91505
 
 July 5 2011 -- April 4 2012
 
@@ -371,7 +388,7 @@ Sr. Systems Administrator
   provide high availability, load balancing, and IPSec VPN between
   office and data center
 
-*** Reach Local, Inc 21700 Oxnard St #1600 Woodland Hills CA 91367
+Reach Local, Inc 21700 Oxnard St #1600 Woodland Hills CA 91367
 
 January 2 2007 -- June 16 2011
 
@@ -387,7 +404,9 @@ Systems Administrator
 - Introduced LDAP for identity management
 - Introduced CFEngine for configuration management
 
-*** Employers Direct Insurance Company 30301 Agoura Rd Agoura CA 91303 
+Employers Direct Insurance Company \\
+30301 Agoura Rd\\
+Agoura CA 91303
 
 March 6, 2006 -- April 11 2006
 
@@ -398,7 +417,7 @@ Linux Systems Administrator
 - Installed RedHat servers with kickstart
 - Deployed web applications on Tomcat and JBoss
 
-*** InfoUSA, Inc. 15760 Ventura Blvd. #A10 Encino CA 91476
+InfoUSA, Inc. 15760 Ventura Blvd. #A10 Encino CA 91476
 
 January 20 2001 -- February 28 2006
 
@@ -414,7 +433,7 @@ Project leader and application developer for redesigned company website
   Apache, PHP, Smarty, and MySQL
 - Team leader with three other developers
 
-*** Interactive Search, Inc. 5959 W. Century Blvd. #1100 Los Angeles CA
+Interactive Search, Inc. 5959 W. Century Blvd. #1100 Los Angeles CA
 90045
 
 May 10 1999 -- December 22 2000
@@ -433,7 +452,7 @@ Promoted to Engineering Support
 - Designed and presented Unix (Solaris) training for group of new web
   developers
 
-*** A-Accurate Answering Service 1489 E. Thousand Oaks Blvd. #2 Thousand
+A-Accurate Answering Service 1489 E. Thousand Oaks Blvd. #2 Thousand
 Oaks CA 91362
 
 December 1 1994 -- May 6 1999
@@ -451,25 +470,60 @@ Head Operator
 :PROPERTIES:
 :CUSTOM_ID: professional-affiliations
 :END:
-- Southern California Linux Expo :: I volunteered to be the official coordinator of all user groups participating in SCALE. As such, I work closely with most of the user groups around the Southern California area to ensure their participation in SCALE will be a success. For more information about SCALE, see [[http://www.socallinuxexpo.com/][http://www.socallinuxexpo.com]].
-  
-- San Fernando Valley Linux Users Group :: I have been involved with the SFVLUG since August 2003. I have given presentations on building VPNs with FreeS/WAN, and CFEngine. I contributed to the group's current website and I have helped in some of the meeting planning. For more information on SFVLUG, please see [[http://www.sfvlug.org]].
+Southern California Linux Expo - I volunteered to be the official
+coordinator of all user groups participating in SCALE. As such, I work
+closely with most of the user groups around the Southern California area
+to ensure their participation in SCALE will be a success. For more
+information about SCALE, see
+[[http://www.socallinuxexpo.com/][http://www.socallinuxexpo.com]].
 
-- Unix Users Association of Southern California :: I joined the UUASC in December 2000. This is an excellent group with members who are seasoned experts in all manner of Unix administration and usage. I have given presentations on the Gnome desktop, sendmail, and Linux Netfilter. For more information about the UUASC, please see [[http://www.uuasc.org/][http://www.uuasc.org]].
+San Fernando Valley Linux Users Group - I have been involved with the
+SFVLUG since August 2003. I have given presentations on building VPNs
+with FreeS/WAN, and CFEngine. I contributed to the group's current
+website and I have helped in some of the meeting planning. For more
+information on SFVLUG, please see [[http://www.sfvlug.org]].
+
+Unix Users Association of Southern California - I joined the UUASC in
+December 2000. This is an excellent group with members who are seasoned
+experts in all manner of Unix administration and usage. I have given
+presentations on the Gnome desktop, sendmail, and Linux Netfilter. For
+more information about the UUASC, please see
+[[http://www.uuasc.org/][http://www.uuasc.org]].
 
 ** Education
 :PROPERTIES:
 :CUSTOM_ID: education
 :END:
-- Moorpark College, Moorpark, CA :: Over two years part time spent working toward general education requirements and greater music education with emphasis on composition and performance.
+Moorpark College, Moorpark, CA -- Over two years part time spent working
+toward general education requirements and greater music education with
+emphasis on composition and performance.
 
-- Sun Education, Advanced Intrusion Detection and Analysis :: Completed five day class from Accenture Learning on the techniques used by bad guys to attack, break into, and misuse a remote computer. Class covered techniques used by attackers to cover their tracks, rootkits, and cryptography, and multiple ways to detect all of these.
+Sun Education, Advanced Intrusion Detection and Analysis -- Completed
+five day class from Accenture Learning on the techniques used by bad
+guys to attack, break into, and misuse a remote computer. Class covered
+techniques used by attackers to cover their tracks, rootkits, and
+cryptography, and multiple ways to detect all of these.
 
-- Self taught :: I taught myself how to build computers, DOS and Windows, Unix and Linux, programming, and networking.
+Self taught -- I taught myself how to build computers, DOS and Windows,
+Unix and Linux, programming, and networking.
 
-- Current goals :: Interested in learning more languages like Lisp maybe Go or Rust.
+Current goals -- Interested in learning more languages like Lisp maybe
+Go or Rust.
 
 At home I operate my homelab network with heterogenous operating
 systems, virtual machines, and dual stacked IPv6 connectivity.
 
+** Websites / Social
+:PROPERTIES:
+:CUSTOM_ID: websites-social
+:END:
+
+[[https://www.linkedin.com/in/jeff-carlson-1912091/]]
+
+[[https://github.com/jeffcarlson72]]
+
+--------------
+
 References available by request.
+
+Dec 26, 2025
