@@ -12,6 +12,10 @@ Simi Valley, CA • (805)285-2286 • jeffcarlson72@yahoo.com
 Highly experienced practitioner in the arts of Unix and Linux Systems
 Administration, DevOps and Site Reliability Engineering.
 
+Please note that I currently live in Southern California. I am open to
+remote positions. Do not contact me for non-permanent roles which are
+not local to me.
+
 ** Skills
 :PROPERTIES:
 :CUSTOM_ID: skills
@@ -526,4 +530,4 @@ systems, virtual machines, and dual stacked IPv6 connectivity.
 
 References available by request.
 
-Jan 12 2026
+Feb 1 2026
