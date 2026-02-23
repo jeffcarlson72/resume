@@ -235,6 +235,7 @@ Site Reliability Engineer
 - Participated in SCRUM sprints
 - Helped build system for automatic remediation of trouble alerts
 - Primarily coded in Python
+- Deployed changes to Kubernetes
 - Also wrote Ansible Playbooks and Roles to handle fixing trouble alerts
 - Managed Playbook runs through Ansible AWX Tower
 - Data centers contain about 6,000 servers
@@ -530,4 +531,4 @@ systems, virtual machines, and dual stacked IPv6 connectivity.
 
 References available by request.
 
-Feb 1 2026
+Feb 23 2026
