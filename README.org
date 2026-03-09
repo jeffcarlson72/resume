@@ -26,6 +26,7 @@ not local to me.
 :END:
 - Fedora, Debian, Ubuntu, SuSE, and Red Hat Enterprise Linux
 - Oracle (nee Sun) Solaris and Illumos
+- IBM AIX
 - FreeBSD
 - NetBSD
 - OpenBSD
@@ -100,8 +101,8 @@ not local to me.
 - Bourne Shell --- Advanced Bash and sh
 - Perl --- Reg(ular)? *Ex(p(ression)?s?)?, CGI, DBI, Tk, Mason, XML,
   mod_perl
-- Python --- JSON, argparse, pymongo, Flask, Jinja2
-- PHP --- MySQL, Smarty, libPDF, GD
+- Python --- JSON, argparse, pymongo, Flask, Jinja2, ReportLab
+- PHP --- MySQL, Smarty, GD
 - sed and awk
 - SQL --- MySQL, PostgreSQL, and SQLite
 - HTML, XML, and CSS
@@ -475,20 +476,20 @@ Head Operator
 :PROPERTIES:
 :CUSTOM_ID: professional-affiliations
 :END:
-Southern California Linux Expo - I volunteered to be the official
+Southern California Linux Expo --- I volunteered to be the official
 coordinator of all user groups participating in SCALE. As such, I work
 closely with most of the user groups around the Southern California area
 to ensure their participation in SCALE will be a success. For more
 information about SCALE, see
 [[http://www.socallinuxexpo.com/][http://www.socallinuxexpo.com]].
 
-San Fernando Valley Linux Users Group - I have been involved with the
+San Fernando Valley Linux Users Group --- I have been involved with the
 SFVLUG since August 2003. I have given presentations on building VPNs
 with FreeS/WAN, and CFEngine. I contributed to the group's current
 website and I have helped in some of the meeting planning. For more
 information on SFVLUG, please see [[http://www.sfvlug.org]].
 
-Unix Users Association of Southern California - I joined the UUASC in
+Unix Users Association of Southern California --- I joined the UUASC in
 December 2000. This is an excellent group with members who are seasoned
 experts in all manner of Unix administration and usage. I have given
 presentations on the Gnome desktop, sendmail, and Linux Netfilter. For
@@ -518,6 +519,14 @@ Go or Rust.
 At home I operate my homelab network with heterogenous operating
 systems, virtual machines, and dual stacked IPv6 connectivity.
 
+** Languages
+:PROPERTIES:
+:CUSTOM_ID: languages
+:END:
+*English* --- Native speaker.
+
+*Spanish* --- I'm an advanced speaker, but not quite 100% fluent.
+
 ** Websites / Social
 :PROPERTIES:
 :CUSTOM_ID: websites-social
@@ -531,4 +540,4 @@ systems, virtual machines, and dual stacked IPv6 connectivity.
 
 References available by request.
 
-Feb 23 2026
+Mar 9 2026
