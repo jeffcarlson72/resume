@@ -65,20 +65,22 @@ not local to me.
 :PROPERTIES:
 :CUSTOM_ID: web-based-services
 :END:
+- Jenkins
 - Ansible Tower / AWX
 - Nagios
 - Spacewalk / Satellite / SUSE Manager
 - NextCloud
 - Grafana
 - Prometheus and node-exporter
+- Uptime Kuma
 
 *** Technologies
 :PROPERTIES:
 :CUSTOM_ID: technologies
 :END:
 - Cloud Platforms: Amazon Web Services (AWS)
-- Virtualization: Docker, Xen, KVM, VirtualBox, qemu, UML, LXC, OpenVZ,
-  VMware
+- Virtualization: Kubernetes Docker, Podman Xen, KVM, VirtualBox, qemu,
+  UML, LXC, OpenVZ, VMware
 - Networking: IPv4 and IPv6
 - Firewalls: Linux Netfilter, OpenBSD pf, IPFilter, tcp_wrappers, packet
   filtering
@@ -540,4 +542,4 @@ systems, virtual machines, and dual stacked IPv6 connectivity.
 
 References available by request.
 
-Mar 9 2026
+Mar 22 2026
